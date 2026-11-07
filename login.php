@@ -145,7 +145,7 @@ if(isset($_GET['error'])) {
     <header class="header">
         <a href="index.php" class="logo">Gift<span>Pixie</span></a>
         <nav class="nav">
-            <a href="index.php">Home</a>
+            <a href="index.php">RUMAH</a>
             <a href="products.php">Products</a>
             <a href="cart.php">Cart</a>
             <a href="login.php">Login</a>
