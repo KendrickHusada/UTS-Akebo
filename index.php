@@ -200,7 +200,7 @@ $featured_result = mysqli_query($conn, $featured_query);
     </header>
 
     <section class="hero">
-        <h1>Thoughtful Gifts for Every Moment</h1>
+        <h1>Ayo berikan kado kepada siapapun</h1>
         <p style="margin-bottom: 30px;">Discover unique and thoughtful gifts that will bring smiles to your loved ones' faces.<br></p>
         <a href="products.php" class="btn">Shop Now</a>
     </section>
