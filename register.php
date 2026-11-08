@@ -249,7 +249,7 @@ if(isset($_GET['success'])) {
                     return false;
                 }
                 
-                if (password.length < 6) {
+                if (password.length <6) {
                     e.preventDefault();
                     alert('Password must be at least 6 characters long');
                     return false;
