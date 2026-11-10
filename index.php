@@ -16,6 +16,7 @@ $featured_result = mysqli_query($conn, $featured_query);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GiftPixie - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -178,11 +179,24 @@ $featured_result = mysqli_query($conn, $featured_query);
             color: #666;
             margin-bottom: 0.5rem;
         }
+        /* Perubahan Frontend - UTS DevOps */
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+header, nav, .navbar, .header {
+    background-color: #1F3A5F !important;
+}
+button, .btn, input[type="submit"] {
+    background-color: #E07A5F !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+}
+
     </style>
 </head>
 <body>
     <header class="header">
-        <a href="index.php" class="logo">Gift<span>Pixie</span></a>
+        <a href="index.php" class="logo">Gift<span>Pixie</span> – Kelompok UTS-Akebo</a>
         <nav class="nav">
             <a href="index.php">Home</a>
             <a href="products.php">Products</a>
